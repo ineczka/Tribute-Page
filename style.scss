@@ -41,9 +41,11 @@ header {
 }
 .flex-container {
   display: flex;
-  justify-content: center;
-  max-width:80%;
+  justify-content: center; 
   margin: auto;
+}
+.flex-item{
+   width:100%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -56,11 +58,9 @@ header {
     max-width:100%;
   }
   .flex-item {
-    flex: 100%;
+     flex: 100%;     
   }
-  .flex-item img {
-   // width: 100%;
-  }
+  
 }
 @media only screen and (max-width: 1900px) {
   .intro .flex-container {
@@ -71,11 +71,9 @@ header {
     max-width:100%;
   }
   .flex-item {
-    flex: 100%;
+   // flex: 100%;
   }
-  .flex-item img {
-   // width: 100%;
-  }
+ 
 }
 blockquote p {
   color: whitesmoke;
